@@ -1,6 +1,6 @@
 &CONTROL
    calculation      = 'relax'
-   pseudo_dir       = '/Users/scott/opt/qe7.2/pseudo'
+   pseudo_dir       = 'pseudo'
    forc_conv_thr    = 0.002
    
 /
