@@ -1,0 +1,44 @@
+&CONTROL
+   calculation      = 'relax'
+   pseudo_dir       = 'pseudo'
+   forc_conv_thr    = 0.002
+   
+/
+&SYSTEM
+   ecutwfc          = 29.4
+   ntyp             = 2
+   nat              = 12
+   ibrav            = 0
+/
+&ELECTRONS
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+C 12.011 C.pbe-n-kjpaw_psl.1.0.0.UPF
+H 1.008 H.pbe-kjpaw_psl.1.0.0.UPF
+
+K_POINTS gamma
+
+CELL_PARAMETERS angstrom
+44.299574 0.0 0.0 
+0.0 44.96472 0.0
+0.0 0.0 40.0
+
+ATOMIC_POSITIONS angstrom
+C   22.149787  23.877608  20.     
+C   23.358107  23.179984  20.      
+C   23.358107  21.784736  20.      
+C   22.149787  21.087112  20.      
+C   20.941467  21.784736  20.      
+C   20.941467  23.179984  20.      
+H   22.149787  24.96472   20.      
+H   24.299574  23.72354   20.      
+H   24.299574  21.24118   20.      
+H   22.149787  20.        20.      
+H   20.        21.24118   20.      
+H   20.        23.72354   20. 
+
